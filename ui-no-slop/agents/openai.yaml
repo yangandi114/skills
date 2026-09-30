@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI No Slop"
+  short_description: "Prevent generic UI and preserve product-specific design"
+  default_prompt: "Use $ui-no-slop to build or review this interface with clear hierarchy, purposeful styling, and complete interactions."

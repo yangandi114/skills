@@ -1,6 +1,16 @@
 # skills
 
-My personal collection of agent skills. No skills have been added yet.
+My personal collection of agent skills.
+
+## Available skills
+
+| Skill | Purpose |
+| --- | --- |
+| [ui-no-slop](ui-no-slop/SKILL.md) | Create, edit, and review interfaces with clear hierarchy, purposeful styling, and complete interactions. |
+
+`ui-no-slop` covers web, desktop, and mobile UI. It includes researched anti-pattern examples, platform rules, and verification guidance. Explicit branding and existing design systems take precedence over its default restrictions.
+
+For Codex, copy the `ui-no-slop` folder into your configured skills directory, usually `~/.codex/skills/`, then invoke `$ui-no-slop`. Its metadata permits automatic selection when the task matches its description. Other compatible agents use the same `SKILL.md` entrypoint and may have different installation locations.
 
 ## Structure
 
