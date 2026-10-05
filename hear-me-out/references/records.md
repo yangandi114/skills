@@ -1,6 +1,6 @@
 # Decision records and handoff
 
-Adapted from the user-supplied *Collaborative Project Discovery* playbook.
+Adapted from the user-supplied project-discovery playbook.
 Examples are illustrative, not live project decisions, authorizations, or results.
 Load the sections relevant to the current decision; keep the conversation focused.
 

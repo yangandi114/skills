@@ -1,5 +1,5 @@
 ---
-name: project-compass
+name: hear-me-out
 description: >-
   Shape a project through agent-led planning, 20–120 adaptive discovery questions
   with recommendations, and a living specification validated by the user.
@@ -9,7 +9,7 @@ description: >-
   factual questions unless the user explicitly requests discovery.
 ---
 
-# Project Compass
+# Hear Me Out
 
 The agent does the broad planning; the user makes the meaningful decisions.
 Think through the project as a whole, keep each conversational turn focused,

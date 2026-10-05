@@ -1,6 +1,6 @@
 # Adaptive multiple-choice question bank
 
-Adapted from the user-supplied *Collaborative Project Discovery* playbook.
+Adapted from the user-supplied project-discovery playbook.
 Examples are illustrative, not live project decisions, authorizations, or results.
 Load the sections relevant to the current decision; keep the conversation focused.
 
@@ -25,7 +25,7 @@ Load the sections relevant to the current decision; keep the conversation focuse
 ## Bank usage
 
 This bank contains 120 optional prompts across meaningful project dimensions.
-Use it as a menu for Project Compass, which asks **20–120 substantive discovery
+Use it as a menu for Hear Me Out, which asks **20–120 substantive discovery
 questions in total**, with depth chosen by the agent. The total includes custom
 questions, follow-ups, and final-readback confirmations; 120 bank entries do not
 mean 120 required questions or an additional allowance for follow-ups. Follow the
