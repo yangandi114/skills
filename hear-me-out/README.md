@@ -122,6 +122,27 @@ specification maintenance.
 
 ## Use it
 
+Install through the [skills CLI](https://github.com/vercel-labs/skills):
+
+```bash
+npx skills add yangandi114/skills --skill hear-me-out
+```
+
+Choose your agent when prompted. For Codex, invoke `$hear-me-out`. If you install
+through the skills CLI for Claude Code, invoke `/hear-me-out`.
+
+Claude Code users can also install the skill as a plugin from this repository's
+marketplace:
+
+```text
+/plugin marketplace add yangandi114/skills
+/plugin install hear-me-out@yangandi114-skills
+```
+
+With that plugin installation, invoke `/hear-me-out:hear-me-out`.
+
+For manual installation:
+
 Copy the `hear-me-out` folder into your agent's configured skills directory. For
 Codex, use `$CODEX_HOME/skills/` when configured, otherwise usually
 `~/.codex/skills/`. Then invoke:
@@ -135,3 +156,10 @@ See [the skill instructions](SKILL.md), [coverage guidance](references/coverage.
 [specification template](templates/project-spec.md), and
 [evaluation scenarios](references/evaluation.md). Narrow edits and simple factual
 questions do not need a full discovery engagement unless you request one.
+
+## License
+
+Hear Me Out is available under the [MIT License](LICENSE). You may use, modify,
+share, and include it in commercial projects. Keep the copyright and license
+notice with copies or substantial portions of the skill. External projects
+linked in this guide retain their own licenses.

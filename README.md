@@ -23,6 +23,24 @@ The agent chooses **20–120 substantive discovery questions** based on complexi
 
 ## Use the skills
 
+Install Hear Me Out through the [skills CLI](https://github.com/vercel-labs/skills):
+
+```bash
+npx skills add yangandi114/skills --skill hear-me-out
+```
+
+The installer lets you choose a supported agent, including Codex and Claude Code.
+For Claude Code's plugin system, add this repository's marketplace and install:
+
+```text
+/plugin marketplace add yangandi114/skills
+/plugin install hear-me-out@yangandi114-skills
+```
+
+Then invoke `/hear-me-out:hear-me-out` in Claude Code. This repository-hosted
+marketplace provides installation; it does not imply inclusion in Anthropic's
+official directory.
+
 For Codex, copy the desired skill folder into your configured skills directory (`$CODEX_HOME/skills/` when configured, otherwise usually `~/.codex/skills/`). Invoke `$ui-no-slop` or `$hear-me-out`. Their metadata permits automatic selection when the task matches the description. Other compatible agents use the same `SKILL.md` entrypoint and may have different installation locations.
 
 Example: “Use $hear-me-out to help me shape this idea. Surface requirements I might overlook, explain the choices and your recommendation, and keep a specification that reflects my answers.”
@@ -46,3 +64,10 @@ skills/
 ```
 
 Use lowercase, hyphen-separated skill folder names. Each folder must contain an uppercase `SKILL.md` with YAML frontmatter containing `name` and `description`, followed by Markdown instructions. Add supporting directories only when the skill needs them.
+
+## License
+
+Hear Me Out and its marketplace metadata are available under the
+[MIT License](hear-me-out/LICENSE). You may use, modify, and redistribute them,
+including commercially, while retaining the copyright and license notice.
+This license applies to Hear Me Out; other skills have their own licensing terms.

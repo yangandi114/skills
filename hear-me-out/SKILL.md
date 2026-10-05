@@ -8,6 +8,7 @@ description: >-
   or asks for this collaborative communication method. Supports software,
   events, research, learning, and other domains. Exclude narrow edits and simple
   factual questions unless the user explicitly requests discovery.
+license: MIT
 ---
 
 # Hear Me Out

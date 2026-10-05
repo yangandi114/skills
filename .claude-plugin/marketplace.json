@@ -1,0 +1,26 @@
+{
+  "name": "yangandi114-skills",
+  "owner": {
+    "name": "yangandi114"
+  },
+  "metadata": {
+    "description": "Agent skills by yangandi114."
+  },
+  "plugins": [
+    {
+      "name": "hear-me-out",
+      "source": "./",
+      "strict": false,
+      "skills": ["./hear-me-out"],
+      "description": "Discover overlooked project requirements through guided choices and a user-approved specification.",
+      "version": "1.0.0",
+      "author": {
+        "name": "yangandi114"
+      },
+      "homepage": "https://github.com/yangandi114/skills/tree/main/hear-me-out",
+      "repository": "https://github.com/yangandi114/skills",
+      "license": "MIT",
+      "keywords": ["requirements", "discovery", "planning", "guided-choices"]
+    }
+  ]
+}
