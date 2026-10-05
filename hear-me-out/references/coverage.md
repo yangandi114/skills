@@ -4,6 +4,26 @@ Adapted from the user-supplied project-discovery playbook.
 Examples are illustrative, not live project decisions, authorizations, or results.
 Load the sections relevant to the current decision; keep the conversation focused.
 
+## Find decisions missing from the brief
+
+Hear Me Out's core strength is helping users discover requirements they did not
+know they needed to decide. Use this coverage map to surface material omissions,
+including details a user without domain experience may not know to mention.
+For each important journey, check who controls it, what can fail, how it
+recovers, what it costs to keep running, and how people finish or leave.
+
+Convert a gap into a focused question with understandable options and a reason
+to care. For example, an undefined review deadline raises questions about
+closing authority, absent participants, late edits, and reopening. Ask those
+in dependency order only when they matter to the agreed project. A single
+answer may resolve several dependent requirements without further questions.
+
+Keep newly surfaced preferences proposed or open until the user answers. Track
+the consequence of leaving a decision undefined and the requirements affected
+by the eventual answer. Investigate facts yourself; retain applicable quality
+baselines. Use the adaptive 20–120 budget to guide useful depth rather than
+treating every row as a compulsory question or a new feature.
+
 ## 7 Cover the experience as a complete system
 
 A feature list is insufficient. Specify how people enter, act, recover, finish and leave. For each important action, identify the actor, starting state, allowed operation, visible feedback, resulting state and failure behavior.

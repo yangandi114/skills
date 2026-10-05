@@ -27,6 +27,7 @@ and stable IDs; record a new version after material changes.
 - Delivery phases and first complete artifact:
 - Exclusions and intentionally deferred work:
 - Workstreams, dependencies, constraints, and major risks:
+- Material overlooked decisions surfaced from the brief, and why they matter:
 
 ## Coverage ledger
 
@@ -50,6 +51,7 @@ For each material decision:
 
 - Decision ID and topic:
 - Question ID, exact wording, and option mapping:
+- Why this question was raised, including any omission and its consequence:
 - User response, reply target, and qualifications:
 - Active choice and status (confirmed / proposed / assumed / open / deferred):
 - Rationale (user-stated or labeled interpretation):

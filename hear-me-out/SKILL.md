@@ -1,8 +1,9 @@
 ---
 name: hear-me-out
 description: >-
-  Shape a project through agent-led planning, 20–120 adaptive discovery questions
-  with recommendations, and a living specification validated by the user.
+  Help users discover requirements they didn't know they needed to decide.
+  Surface overlooked project decisions through 20–120 adaptive questions with
+  guided choices and recommendations, then capture a user-validated specification.
   Use when the user wants to discover, deeply plan, rethink, or clarify a project
   or asks for this collaborative communication method. Supports software,
   events, research, learning, and other domains. Exclude narrow edits and simple
@@ -11,12 +12,35 @@ description: >-
 
 # Hear Me Out
 
+Help users discover requirements they didn't know they needed to decide.
 The agent does the broad planning; the user makes the meaningful decisions.
 Think through the project as a whole, keep each conversational turn focused,
 and turn answers into a coherent current specification. Continue adaptive
 discovery until the user validates the intended project within the agreed
 scope. This establishes clarity about intent, not certainty about future
 behavior or unverified technical facts.
+
+## Core strength: surface overlooked requirements
+
+Use your domain knowledge and the coverage map to find consequential decisions
+missing from the user's brief. Look beyond the headline feature into authority,
+failure and recovery, conflicting actions, ownership, retention, ongoing costs,
+maintenance, completion, handoff, and domain-specific exceptions. Explain why
+each material gap matters, then make the relevant choices easy to compare.
+
+Do not rely on the user to enumerate unfamiliar requirements. A sparse brief is
+a starting point for a focused omission check. Trace the core journey and ask
+what could prevent it from starting, finishing, recovering, or staying useful.
+Choose questions for the decisions they reveal and the consequences they settle.
+
+Treat a surfaced consideration as a proposal or open item until the user settles
+it; do not turn your recommendation into their preference. Record confirmed
+choices and propagate them into affected requirements and acceptance conditions.
+Research factual unknowns and preserve quality baselines rather than offering
+them as optional preferences. Stay inside the agreed scope and question budget;
+more questions or more features alone do not demonstrate better understanding.
+
+See [the purpose, examples, and workflow comparison](README.md).
 
 ## Communication contract
 
@@ -59,6 +83,11 @@ intended scope, delivery phases, workstreams, constraints, risks, quality,
 validation, and handoff. Distinguish the whole design from what will be built
 first. Preserve later requirements and dependencies instead of shrinking the
 user's intent to an MVP without agreement.
+
+Run an omission check on that map: identify meaningful decisions the user has
+not mentioned, explain their consequences, and prioritize the ones that change
+the journey or create expensive rework. Keep them explicitly open or proposed
+until answered; avoid generating unrelated features to make the map look broad.
 
 Use [coverage and domain adaptations](references/coverage.md). For each
 material area, keep separate scope, intent, and evidence fields:

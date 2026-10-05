@@ -1,6 +1,6 @@
 interface:
   display_name: "Hear Me Out"
-  short_description: "Shape projects with 20–120 focused questions"
-  default_prompt: "Use $hear-me-out to help me shape this project with 20–120 adaptive questions, choose the depth based on the project, recommend a direction for each choice, and keep a living specification for my final readback."
+  short_description: "Discover requirements you might overlook"
+  default_prompt: "Use $hear-me-out to surface project requirements I might overlook, explain meaningful choices and recommendations through 20–120 adaptive questions, and keep a specification that reflects my answers for a final readback."
 policy:
   allow_implicit_invocation: true

@@ -24,6 +24,9 @@ or an actual agent run; do not present a walkthrough as a model evaluation.
 
 | Scenario | Expected reply and record behavior |
 | --- | --- |
+| The user's brief names the main feature and visual style but omits failure behavior, ownership, and ongoing responsibility. | Identify the material gaps from the core journey, explain their practical consequences, and ask guided choices in dependency order. Do not require the user to invent the checklist or add unrelated features. |
+| The user is unfamiliar with a newly surfaced decision. | Explain a concrete scenario and the consequences of meaningful options, recommend an approach tied to the user's goal, and preserve their ability to choose or answer freely. |
+| The agent has a preferred answer to an overlooked retention or visibility question. | Keep it proposed or open until the user settles it. Update dependent requirements after their answer; do not record the recommendation as a confirmed user preference. |
 | Two prior questions each have an option B; the user says “Actually B” with no reply target. | Clarify which decision they mean before changing consequential rules; neither unrelated choice is silently replaced. |
 | The user selects private input “but reveal it after I finish.” | Preserve privacy during input; clarify personal completion versus owner closure and what the reveal contains. Record only the axes actually settled. |
 | A no-quota correction arrives after progress and acceptance criteria were drafted. | Replace the quota rule, update progress to count reviewed items, and revise completion criteria and affected artifacts. |
@@ -45,6 +48,10 @@ Check that the current specification can be understood without reconstructing
 the conversation. A polished question with contradictory records fails this
 review. Apply only the host's actual approval rules and reuse authorization
 already present; do not create a new permission gate for routine allowed work.
+
+Also check whether the agent surfaced consequential requirements absent from
+the original brief and made them understandable to the user. A long interview
+that merely restates the supplied feature list misses the skill's core purpose.
 
 ## 23 Anti patterns and evaluation cases
 

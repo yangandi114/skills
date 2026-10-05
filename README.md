@@ -7,15 +7,25 @@ My personal collection of agent skills.
 | Skill | Purpose |
 | --- | --- |
 | [ui-no-slop](ui-no-slop/SKILL.md) | Create, edit, and review interfaces with clear hierarchy, purposeful styling, and complete interactions. |
-| [Hear Me Out](hear-me-out/SKILL.md) | Shape projects through 20–120 adaptive questions, recommendations, and a living specification validated by the user. |
+| [Hear Me Out](hear-me-out/SKILL.md) | Discover requirements you might overlook through guided choices, then capture a specification that reflects your intent. |
 
 `ui-no-slop` covers web, desktop, and mobile UI. It includes researched anti-pattern examples, platform rules, and verification guidance. Explicit branding and existing design systems take precedence over its default restrictions.
 
-**Hear Me Out** (`hear-me-out`) captures the communication method in the supplied project-discovery playbook: the agent plans broadly, the user makes meaningful choices, and corrections update the current project specification. The agent chooses an adaptive depth of **20–120 substantive discovery questions** based on scope, complexity, risk, and uncertainty, stopping once the project is understood and validated. Its 120-prompt bank is a menu rather than a required questionnaire; follow-ups and the final readback count toward the cap. It also includes worked dialogues, coverage and decision records, and a reusable specification template. It adapts to software, events, research, and learning without making narrow tasks into workshops.
+## Hear Me Out
+
+**Discover requirements you didn't know you needed to decide.**
+
+You bring the idea; Hear Me Out helps the AI surface the decisions behind it: who has authority, what happens when something fails, how people recover mistakes, who can see the data, what ongoing costs are acceptable, and what happens after handoff. It explains meaningful options and their consequences so you can express preferences without already knowing every design or operating detail. Your answers define the requirements, and the AI keeps the specification aligned as you refine them.
+
+Choose it when you want a thorough discovery partner that actively checks for overlooked requirements, makes those choices approachable, and reads back the complete scoped project for your confirmation. It adapts to software, events, research, and learning. [Read the guide, examples, and comparison with related skills](hear-me-out/README.md).
+
+The agent chooses **20–120 substantive discovery questions** based on complexity, risk, and uncertainty. The 120-prompt bank is a menu; follow-ups and the final readback count toward the cap. Worked dialogues, coverage and decision records, and a specification template support the workflow.
+
+## Use the skills
 
 For Codex, copy the desired skill folder into your configured skills directory (`$CODEX_HOME/skills/` when configured, otherwise usually `~/.codex/skills/`). Invoke `$ui-no-slop` or `$hear-me-out`. Their metadata permits automatic selection when the task matches the description. Other compatible agents use the same `SKILL.md` entrypoint and may have different installation locations.
 
-Example: “Use $hear-me-out to help me shape this idea. Bring a whole-project plan, ask one meaningful choice at a time, recommend a direction, and keep the specification updated as I answer.”
+Example: “Use $hear-me-out to help me shape this idea. Surface requirements I might overlook, explain the choices and your recommendation, and keep a specification that reflects my answers.”
 
 ## Structure
 
