@@ -132,15 +132,28 @@ For software, exercise the agreed core journey and important failure paths. For 
 
 ## 11 Bound discovery and control scope
 
-Near-exhaustive planning means covering the material dimensions of the agreed project. It does not mean expanding the project until every imaginable feature exists. Every option, role, mode and integration adds behavior to design, maintain and test.
+Cover the material dimensions of the agreed project with enough depth to expose
+important gaps. This does not mean asking every bank prompt or expanding the
+project until every imaginable feature exists. Every option, role, mode, and
+integration adds behavior to design, maintain, and test.
 
-### Minimal and full discovery modes
+### Adaptive discovery depth
 
-Minimal mode is appropriate for a small, reversible project or a user with limited time. Establish the outcome, audience, core journey, major constraints and success check. Ask the two or three most consequential questions, propose the rest, and produce a small reviewable artifact. Label assumptions and unresolved risks.
+Use [the Project Compass budget](../SKILL.md#adaptive-depth-and-question-budget):
+20–120 substantive discovery questions per project, including follow-ups and
+readback confirmations. The agent chooses and revises a provisional depth from
+complexity, risk, uncertainty, and dependencies. Bounded reversible work often
+fits 20–40; several workflows or integrations may need 40–80; broad or
+high-consequence work may need 80–120. These ranges guide judgment, not quotas.
 
-Full mode is appropriate for complex, costly or hard-to-reverse work, or when the user requests depth. Build the full coverage map, resolve dependencies, examine failure states, compare designs and validate feasibility. Still keep individual conversational turns focused.
-
-For a user explicitly requesting almost exhaustive discovery, use full mode by default. Do not switch to minimal mode or an MVP discussion merely to shorten the interview. The mode can change when the user asks or agrees. “We can move with a small prototype now and leave the sharing model open, or settle the sharing model first because it changes the data structure.” Do not use speed as a reason to hide an unresolved high-consequence issue.
+Reassess after decision clusters. Stop at the earliest sufficient depth after
+20 when the user validates the scoped specification. Reuse answers, verify
+facts, and use realistic artifacts rather than filling a questionnaire. Do not
+hide material risks to save questions or ask irrelevant details to add them.
+Reserve questions for corrections and readback; at 120, stop asking, disclose
+remaining gaps, and defer or block affected work. A user's explicit request
+to shorten or end discovery overrides the default; record the changed scope
+and unresolved items. Narrow edits remain outside discovery unless requested.
 
 ### Treat new ideas as scope decisions
 

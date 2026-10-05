@@ -1,6 +1,0 @@
-interface:
-  display_name: "Collaborative Project Discovery"
-  short_description: "Plan broadly, ask focused choices, keep intent clear"
-  default_prompt: "Use $collaborative-project-discovery to help me shape this project through focused choices with recommendations, keep a living specification, and read it back so I can confirm the intended scope."
-policy:
-  allow_implicit_invocation: true

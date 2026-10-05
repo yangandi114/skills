@@ -1,7 +1,7 @@
 ---
-name: collaborative-project-discovery
+name: project-compass
 description: >-
-  Shape a project through agent-led planning, adaptive multiple-choice questions
+  Shape a project through agent-led planning, 20–120 adaptive discovery questions
   with recommendations, and a living specification validated by the user.
   Use when the user wants to discover, deeply plan, rethink, or clarify a project
   or asks for this collaborative communication method. Supports software,
@@ -9,7 +9,7 @@ description: >-
   factual questions unless the user explicitly requests discovery.
 ---
 
-# Collaborative Project Discovery
+# Project Compass
 
 The agent does the broad planning; the user makes the meaningful decisions.
 Think through the project as a whole, keep each conversational turn focused,
@@ -78,10 +78,13 @@ sources and sampling, and learning needs practice and assessment.
 
 Use the [question pattern](references/questions.md) and
 [adaptive question bank](references/question-bank.md). Select applicable
-branches and cover every material prompt and follow-up. Do not send all 120
-prompts, force irrelevant branches, or repeat information already supplied.
-Track each applicable question as answered, needs follow-up, needs research,
-intentionally deferred, or not applicable with a reason.
+branches and choose prompts that resolve material unknowns within the adaptive
+question budget below. The 120 bank prompts are a menu, not a required interview.
+Use, combine coherently, or replace them with project-specific questions. Do not
+send the whole bank, force irrelevant branches, or repeat known answers. Track
+selected questions as answered, needs follow-up, needs research, intentionally
+deferred, or not applicable with a reason. Coverage is about meaningful project
+dimensions, not exhausting every prompt in a branch.
 
 Prioritize impact, uncertainty, dependencies, and cost of reversal. Ask one
 focused question at a time. Use two to four genuine alternatives, usually
@@ -174,15 +177,58 @@ produced, what was actually checked, failed or blocked behavior, remaining
 uncertainty, and the next owner or step. A mockup is not evidence that sign-in,
 persistence, large uploads, bookings, or production deployment work.
 
+## Adaptive depth and question budget
+
+For a complete project-discovery engagement, ask **at least 20 and at most 120
+substantive discovery questions**. Choose the depth yourself from the project
+map; do not ask the user to set a question count. Start with a provisional target
+and revise it as answers reveal complexity or resolve uncertainty:
+
+| Project characteristics | Starting range, not a quota |
+| --- | --- |
+| Bounded, familiar, reversible work with few actors and low uncertainty | 20–40 |
+| Several workflows, collaborators, integrations, or important tradeoffs | 40–80 |
+| Broad scope, unfamiliar constraints, high consequence, or difficult recovery | 80–120 |
+
+Use judgment within these overlapping ranges. After each decision cluster,
+inspect coverage gaps, unresolved dependencies, conflicting answers, and the
+value of another question. Increase depth where an answer will change the plan;
+reduce the remaining target when evidence or existing context settles it. Do
+not ask filler, repeat answered questions, or treat 120 as a goal. Before 20,
+use meaningful scenario, exception, constraint, and acceptance questions to
+check understanding rather than introducing irrelevant features.
+
+Maintain one running count for the project across sessions and phases. Count
+each distinct discovery question actually presented, including ideation,
+substantive clarifications, follow-ups, and final-readback confirmations.
+Count separate decisions in a bundle separately; presenting the same unanswered
+question again does not make it a new distinct question. Previously supplied
+facts, unasked bank prompts, research steps, progress updates, and operational
+permission requests do not count. An unanswered or skipped question consumes
+its slot but does not resolve its intent. Record the count, provisional target,
+and remaining budget in the project specification; resuming work does not reset
+them. A scope change within the same project does not reset the cap either.
+
+Reserve slots for corrections and the final readback rather than spending all
+120 on initial choices. Normally reach the readback before the cap. Stop at
+the earliest sufficient depth after 20 once material intent is clear or
+intentionally deferred and the user validates the current specification. If
+the user explicitly requests fewer questions or stops discovery, honor that
+instruction and record the reduced scope and unresolved items.
+
+At 120, ask no further discovery questions. Present the current specification,
+remaining uncertainties, and work that can proceed safely. Defer or block
+affected work rather than guessing, resetting the count, or claiming clarity.
+If the final readback is still unvalidated, leave it unvalidated; incorporate
+any corrections or confirmation the user supplies without starting another
+questionnaire. Only a new explicit user instruction can change these limits.
+
 ## Pacing and checkpoints
 
-Default to full adaptive discovery for this communication method: account for
-every applicable material dimension while keeping turns short. Near-exhaustive
-coverage is bounded by the agreed project, not every imaginable feature. Do not
-silently switch to minimal discovery to shorten the interview. When the user
-requests a small task or reduced depth, use a minimal map and the highest-impact
-questions, propose reversible defaults, and show a reviewable artifact. Keep
-material risks visible and record the reduced scope.
+Adapt conversational length, artifacts, and depth to the project while keeping
+the agreed whole-project scope visible. Use short turns even for deep discovery;
+depth does not require a long questionnaire in one message. Keep material risks
+visible and record intentional deferrals rather than silently shrinking scope.
 
 Checkpoint after decisions, corrections, scope changes, prototype reviews,
 and before consequential execution. State confirmed intent, changes, open

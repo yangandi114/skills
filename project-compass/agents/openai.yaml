@@ -1,0 +1,6 @@
+interface:
+  display_name: "Project Compass"
+  short_description: "Shape projects with 20–120 focused questions"
+  default_prompt: "Use $project-compass to help me shape this project with 20–120 adaptive questions, choose the depth based on the project, recommend a direction for each choice, and keep a living specification for my final readback."
+policy:
+  allow_implicit_invocation: true

@@ -8,7 +8,11 @@ and stable IDs; record a new version after material changes.
 
 - Project and version:
 - Last updated:
-- Discovery mode and agreed scope:
+- Discovery depth and agreed scope:
+- Questions asked so far (distinct discovery questions, including follow-ups and readbacks):
+- Provisional target within 20–120, and complexity/risk/uncertainty rationale:
+- Remaining budget out of 120, including reserved correction/readback slots:
+- Budget/depth changes and explicit user exceptions, if any:
 - Current stage and active question ID/topic:
 - Last user-validated version and supporting reply (or not yet validated):
 - Changes since validation:
@@ -33,10 +37,12 @@ and stable IDs; record a new version after material changes.
 
 Use the bank's C01–C120 IDs for source prompts and stable Q-prefixed IDs for
 custom questions and follow-ups. Preserve the exact option mapping when a short
-answer could be ambiguous. Group irrelevant branches with an explicit reason.
+answer could be ambiguous. Track selected prompts, not all 120 by default; group
+irrelevant branches with a reason. Research and previously supplied answers do
+not consume question slots. Resuming or changing phases retains the running count.
 
-| Question ID and topic | Exact question and options, or link to their record | Disposition: answered / needs follow-up / needs research / intentionally deferred / not applicable | User answer and qualifications | Decision or requirement IDs; follow-up or reason |
-| --- | --- | --- | --- | --- |
+| Question ID and topic | Asked count/index, or not asked | Exact question and options, or link to their record | Disposition: answered / needs follow-up / needs research / intentionally deferred / not applicable | User answer and qualifications | Decision or requirement IDs; follow-up or reason |
+| --- | --- | --- | --- | --- | --- |
 
 ## Decision records
 

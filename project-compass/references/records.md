@@ -99,3 +99,10 @@ Each sentence should map to a test or inspection. If export is deferred, remove 
 ## Editable project record
 
 Use [the project specification template](../templates/project-spec.md) for the current version, coverage and question ledgers, decisions, requirements, evidence, and user validation. Keep one active specification; archive superseded decisions without leaving their rules active. The ledgers separate intent from verified behavior.
+
+Track the cumulative asked-question count, provisional depth and rationale,
+remaining allowance, and reserved correction/readback slots. Apply
+[the 20–120 budget](../SKILL.md#adaptive-depth-and-question-budget) to selected
+discovery questions, including follow-ups. Known facts and research are not new
+questions. Keep the count across sessions, phases, and scope changes within the
+same project; do not restart it merely to escape the cap.

@@ -33,7 +33,14 @@ Usually ask one question with three or four concrete options. A short related bu
 
 ### Avoid the questionnaire treadmill
 
-Throughout the extensive questionnaire, make answers tangible: a revised journey, a sample screen, a schedule, a draft agenda or a testable outline. Show the effect of the answers. Continue through all applicable material questions and follow-ups. Do not stop early merely because a plausible first version can be imagined.
+Make answers tangible through a revised journey, sample screen, schedule, draft
+agenda, or testable outline. Show the effects rather than just asking another
+question. Use [the adaptive 20–120 budget](../SKILL.md#adaptive-depth-and-question-budget),
+chosen by the agent to fit the project. Cover important intent without requiring
+every question in a relevant branch. Count follow-ups, reserve readback slots,
+and stop at the earliest sufficient depth after 20 when scoped intent is
+validated. A plausible first version alone is insufficient; reaching 120 also
+does not prove understanding. At the cap, surface open items and stop asking.
 
 Discovery should alternate thinking, choosing and making. Twenty questions that could have been answered by one realistic prototype are poor use of the user's attention.
 

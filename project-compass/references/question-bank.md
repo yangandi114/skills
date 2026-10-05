@@ -24,11 +24,23 @@ Load the sections relevant to the current decision; keep the conversation focuse
 
 ## Bank usage
 
-This bank contains 120 prompts across the meaningful dimensions of a project. It is designed for an almost exhaustive questionnaire delivered adaptively, one focused decision at a time. It is not a form to dump into a single message, nor a fixed limit on follow-up questions.
+This bank contains 120 optional prompts across meaningful project dimensions.
+Use it as a menu for Project Compass, which asks **20–120 substantive discovery
+questions in total**, with depth chosen by the agent. The total includes custom
+questions, follow-ups, and final-readback confirmations; 120 bank entries do not
+mean 120 required questions or an additional allowance for follow-ups. Follow the
+[adaptive budget](../SKILL.md#adaptive-depth-and-question-budget).
 
 ### How to use the bank
 
-Start with the whole-project map. Select the applicable branches, then work through every material question in those branches. Reuse answers already given rather than asking again. For each prompt, keep a disposition: answered, needs follow-up, needs research, intentionally deferred, or not applicable with a reason. A recommendation in this bank is conditional guidance; adapt it to the actual goal and evidence.
+Start with the whole-project map. Estimate the depth needed from scope,
+complexity, consequence, and uncertainty. Select the highest-value prompts from
+relevant branches; it is not necessary to ask every prompt in a selected branch.
+Reuse known answers and adapt or write a question when the bank does not fit.
+Keep dispositions for selected questions: answered, needs follow-up, needs
+research, intentionally deferred, or not applicable with a reason. Do not
+create 120 ledger rows just to account for unselected prompts. A recommendation
+in this bank is conditional guidance; adapt it to the actual goal and evidence.
 
 The listed options are examples, not a closed set. Users can combine them, reject them or write another answer. Where a choice contains two independent axes, ask a follow-up rather than silently treating the whole bundle as approved. Option letters are local to each question; use the question ID to avoid ambiguity.
 
@@ -36,11 +48,16 @@ The listed options are examples, not a closed set. Users can combine them, rejec
 
 C01–C08 establish intent for every project. C09–C16 cover people and scope. C17–C24 cover the working journey. C25–C32 apply to collaborative or permissioned work. C33–C40 cover data and content. C41–C48 cover technical feasibility when software is involved. C49–C56 cover interaction and familiar conventions. C57–C64 cover visual and responsive design. C65–C72 cover resilience and accessibility. C73–C80 cover privacy and consequential constraints. C81–C88 cover delivery and success. C89–C96 examine exceptions and changes. C97–C104 adapt to events. C105–C112 adapt to research. C113–C120 adapt to learning.
 
-### Follow up until the meaning is clear
+### Follow up within the question budget
 
 A selection may open another question. “Group decision” requires defining eligible voters, ties and closure. “Keep it local” requires clarifying whether remote access, backups or exports may leave the device. “Make it intuitive” requires naming the audience's familiar patterns and inspecting a realistic flow.
 
-Ask for a concrete scenario when words remain vague. Ask the user to correct a readback when choices conflict. Investigate factual uncertainty with research or a bounded test. Never use a default to conceal a material unknown.
+Ask for a concrete scenario when words remain vague. Use correction slots for
+conflicting choices and reserve the final-readback slot. Investigate factual
+uncertainty with research or a bounded test; these do not consume questions
+unless another discovery question is presented. At the cap, stop asking and
+surface unresolved items or affected blockers. Never use a default to conceal
+a material unknown or describe reaching the cap as validated understanding.
 
 ### Completion means validated scoped clarity
 

@@ -7,15 +7,15 @@ My personal collection of agent skills.
 | Skill | Purpose |
 | --- | --- |
 | [ui-no-slop](ui-no-slop/SKILL.md) | Create, edit, and review interfaces with clear hierarchy, purposeful styling, and complete interactions. |
-| [collaborative-project-discovery](collaborative-project-discovery/SKILL.md) | Shape projects through focused choices with recommendations and a living specification validated by the user. |
+| [project-compass](project-compass/SKILL.md) | Shape projects through 20–120 adaptive questions, recommendations, and a living specification validated by the user. |
 
 `ui-no-slop` covers web, desktop, and mobile UI. It includes researched anti-pattern examples, platform rules, and verification guidance. Explicit branding and existing design systems take precedence over its default restrictions.
 
-`collaborative-project-discovery` captures the communication method in the supplied *Collaborative Project Discovery* playbook: the agent plans broadly, the user makes meaningful choices, and corrections update the current project specification. It includes 120 adaptive prompts, worked dialogues, coverage and decision records, a reusable specification template, and a final scoped-intent readback. It adapts to software, events, research, and learning without making narrow tasks into workshops.
+**Project Compass** (`project-compass`) captures the communication method in the supplied *Collaborative Project Discovery* playbook: the agent plans broadly, the user makes meaningful choices, and corrections update the current project specification. The agent chooses an adaptive depth of **20–120 substantive discovery questions** based on scope, complexity, risk, and uncertainty, stopping once the project is understood and validated. Its 120-prompt bank is a menu rather than a required questionnaire; follow-ups and the final readback count toward the cap. It also includes worked dialogues, coverage and decision records, and a reusable specification template. It adapts to software, events, research, and learning without making narrow tasks into workshops.
 
-For Codex, copy the desired skill folder into your configured skills directory (`$CODEX_HOME/skills/` when configured, otherwise usually `~/.codex/skills/`). Invoke `$ui-no-slop` or `$collaborative-project-discovery`. Their metadata permits automatic selection when the task matches the description. Other compatible agents use the same `SKILL.md` entrypoint and may have different installation locations.
+For Codex, copy the desired skill folder into your configured skills directory (`$CODEX_HOME/skills/` when configured, otherwise usually `~/.codex/skills/`). Invoke `$ui-no-slop` or `$project-compass`. Their metadata permits automatic selection when the task matches the description. Other compatible agents use the same `SKILL.md` entrypoint and may have different installation locations.
 
-Example: “Use $collaborative-project-discovery to help me shape this idea. Bring a whole-project plan, ask one meaningful choice at a time, recommend a direction, and keep the specification updated as I answer.”
+Example: “Use $project-compass to help me shape this idea. Bring a whole-project plan, ask one meaningful choice at a time, recommend a direction, and keep the specification updated as I answer.”
 
 ## Structure
 
