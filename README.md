@@ -1,4 +1,5 @@
 # skills
+[![Security: A — Skills Directory](https://www.skillsdirectory.com/api/skills/yangandi114-hear-me-out/badge)](https://www.skillsdirectory.com/skills/yangandi114-hear-me-out)
 
 My personal collection of agent skills.
 
