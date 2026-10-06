@@ -1,0 +1,13 @@
+{
+  "name": "hear-me-out",
+  "version": "1.0.1",
+  "description": "Discover overlooked project requirements through guided choices and a user-approved specification.",
+  "author": {
+    "name": "yangandi114"
+  },
+  "homepage": "https://github.com/yangandi114/skills/tree/main/hear-me-out",
+  "repository": "https://github.com/yangandi114/skills",
+  "license": "MIT",
+  "keywords": ["requirements", "discovery", "planning", "guided-choices"],
+  "skills": ["./"]
+}

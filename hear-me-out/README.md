@@ -141,6 +141,12 @@ marketplace:
 
 With that plugin installation, invoke `/hear-me-out:hear-me-out`.
 
+Hear Me Out contains instructions and supporting documents, with no bundled
+executable scripts, API clients, services, or telemetry. It uses your agent's
+tools for questions, notes, research, and optional prototypes, following your
+instructions and environment permissions. Project details and saved artifacts
+follow your agent's data handling and workspace policies.
+
 For manual installation:
 
 Copy the `hear-me-out` folder into your agent's configured skills directory. For

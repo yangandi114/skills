@@ -9,11 +9,9 @@
   "plugins": [
     {
       "name": "hear-me-out",
-      "source": "./",
-      "strict": false,
-      "skills": ["./hear-me-out"],
+      "source": "./hear-me-out",
       "description": "Discover overlooked project requirements through guided choices and a user-approved specification.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "yangandi114"
       },
